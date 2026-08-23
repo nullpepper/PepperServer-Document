@@ -33,7 +33,7 @@ done
 if [ "$broken" -eq 1 ]; then echo "FAIL: 存在断裂链接"; fail=1; else echo "PASS: 链接完整"; fi
 
 echo "== 3. 旧仓库引用 =="
-if grep -rn 'jlxnb' docusaurus.config.js docs/ README.md 2>/dev/null; then
+if grep -rn 'jlxnb' .vitepress/config.mts docs/ README.md 2>/dev/null; then
   echo "FAIL: 仍引用 jlxnb"; fail=1
 else
   echo "PASS: 无 jlxnb 引用"

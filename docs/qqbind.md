@@ -1,6 +1,3 @@
----
-sidebar_position: 10
----
 
 # QQ 绑定
 

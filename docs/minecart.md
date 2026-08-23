@@ -1,6 +1,3 @@
----
-sidebar_position: 11
----
 
 # 矿车玩法
 
