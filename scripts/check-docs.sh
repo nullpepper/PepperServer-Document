@@ -46,5 +46,12 @@ else
   echo "PASS: 停用文件已删除"
 fi
 
+echo "== 5. 锚点链接完整性 =="
+if node scripts/check-anchors.mjs; then
+  echo "PASS: 锚点链接完整"
+else
+  echo "FAIL: 存在断裂锚点"; fail=1
+fi
+
 [ "$fail" -eq 0 ] && echo "ALL PASS" || echo "HAS FAILURES"
 exit $fail
