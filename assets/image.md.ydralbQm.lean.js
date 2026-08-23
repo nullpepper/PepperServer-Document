@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as d,a0 as o}from"./chunks/framework.DQOulFGV.js";const m=JSON.parse('{"title":"图片展示","description":"","frontmatter":{},"headers":[],"relativePath":"image.md","filePath":"image.md"}'),r={name:"image.md"};function i(l,e,c,n,h,p){return a(),d("div",null,[...e[0]||(e[0]=[o("",9)])])}const _=t(r,[["render",i]]);export{m as __pageData,_ as default};

@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as d,a0 as o}from"./chunks/framework.DQOulFGV.js";const _=JSON.parse('{"title":"休闲动作","description":"","frontmatter":{},"headers":[],"relativePath":"actions.md","filePath":"actions.md"}'),r={name:"actions.md"};function l(i,t,c,n,s,h){return e(),d("div",null,[...t[0]||(t[0]=[o("",10)])])}const b=a(r,[["render",l]]);export{_ as __pageData,b as default};

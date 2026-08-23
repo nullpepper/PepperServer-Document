@@ -1,1 +1,0 @@
-import{_ as d,o as e,c as o,a0 as r}from"./chunks/framework.DQOulFGV.js";const u=JSON.parse('{"title":"常用指令速查","description":"","frontmatter":{},"headers":[],"relativePath":"quickref.md","filePath":"quickref.md"}'),a={name:"quickref.md"};function c(h,t,l,i,n,b){return e(),o("div",null,[...t[0]||(t[0]=[r("",16)])])}const m=d(a,[["render",c]]);export{u as __pageData,m as default};

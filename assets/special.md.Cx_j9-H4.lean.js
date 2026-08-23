@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as d,a2 as l}from"./chunks/framework.mRCPFc5l.js";const u=JSON.parse('{"title":"特殊功能","description":"","frontmatter":{},"headers":[],"relativePath":"special.md","filePath":"special.md"}'),r={name:"special.md"};function o(i,t,h,c,n,s){return a(),d("div",null,[...t[0]||(t[0]=[l("",13)])])}const _=e(r,[["render",o]]);export{u as __pageData,_ as default};

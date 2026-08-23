@@ -1,1 +1,0 @@
-import{_ as o,o as e,c as a,a0 as d}from"./chunks/framework.DQOulFGV.js";const p=JSON.parse('{"title":"经济系统","description":"","frontmatter":{},"headers":[],"relativePath":"conomy.md","filePath":"conomy.md"}'),r={name:"conomy.md"};function l(n,t,i,s,c,h){return e(),a("div",null,[...t[0]||(t[0]=[d("",17)])])}const u=o(r,[["render",l]]);export{p as __pageData,u as default};

@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as e,a2 as l}from"./chunks/framework.mRCPFc5l.js";const b=JSON.parse('{"title":"矿车玩法","description":"","frontmatter":{},"headers":[],"relativePath":"minecart.md","filePath":"minecart.md"}'),o={name:"minecart.md"};function i(d,t,n,h,s,c){return r(),e("div",null,[...t[0]||(t[0]=[l("",20)])])}const m=a(o,[["render",i]]);export{b as __pageData,m as default};

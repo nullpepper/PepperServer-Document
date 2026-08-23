@@ -1,1 +1,0 @@
-import{_ as d,o as t,c as o,a0 as a}from"./chunks/framework.DQOulFGV.js";const p=JSON.parse('{"title":"基岩版玩家","description":"","frontmatter":{},"headers":[],"relativePath":"bedrock.md","filePath":"bedrock.md"}'),c={name:"bedrock.md"};function r(i,e,l,n,h,s){return t(),o("div",null,[...e[0]||(e[0]=[a("",14)])])}const m=d(c,[["render",r]]);export{p as __pageData,m as default};
