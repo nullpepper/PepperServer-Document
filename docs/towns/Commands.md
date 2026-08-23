@@ -64,7 +64,6 @@ sidebar_position: 4
 | `/pclaim group <领地> <create\|assign\|setflag\|list\|...>` | 角色组管理 |
 | `/pclaim quota` | 额度概览 |
 | `/pclaim buy <块数>` | 购买额度 |
-| `/pclaim home transfer <玩家>` / `accept` | 家园转让 |
 | `/pclaim trapped` | 被困自救 |
 | `/pclaim confirm` | 确认待执行操作（10 秒窗口） |
 | `/pclaim guide` | 游戏内指南书 |

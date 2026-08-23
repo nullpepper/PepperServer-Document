@@ -99,13 +99,6 @@ sidebar_position: 2
 /pclaim unban 捣蛋鬼
 ```
 
-### 家园转让
-
-```
-/pclaim home transfer <玩家>   # 转让（双方确认，每人 7 天冷却）
-/pclaim home accept            # 接受
-```
-
 ## 额度与经济
 
 领地大小受**额度**限制（方块数）：

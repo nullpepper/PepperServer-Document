@@ -52,7 +52,6 @@ sidebar_position: 0
 ## 文档导航
 
 - [常用指令速查](quickref.md) —— 一页看完最常用指令
-- **基础功能**：[传送系统](teleport.md) · [经济系统](conomy.md) · [聊天系统](chat.md) · [前缀与称号](prefix.md) · [休闲动作](actions.md) · [图片展示](image.md)
+- **基础功能**：[传送系统](teleport.md) · [经济系统](conomy.md) · [聊天系统](chat.md) · [前缀与称号](prefix.md) · [休闲动作](actions.md) · [图片展示](image.md) · [矿车玩法](minecart.md)
 - **玩法进阶**：[世界](worlds.md) · [基岩版玩家](bedrock.md) · [QQ 绑定](qqbind.md) · [特殊功能](special.md)
 - **团队玩法**：[联盟与领地](towns/) 系列
-- [管理指令](admin.md) —— 管理员专用
