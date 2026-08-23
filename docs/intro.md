@@ -17,7 +17,7 @@ sidebar_position: 0
 | 服务器地址 | **pepper.ltd** |
 | 服务器 QQ 群 | **754966689** |
 | 官网 | http://web.pepper.ltd |
-| 支持版本 | **1.20 ～ 1.21.x**（建议使用最新正式版） |
+| 支持版本 | **1.21-26.2** |
 | 文档开源地址 | [点我点我](https://github.com/nullpepper/PepperServer-Document/) |
 
 ## 参数约定
