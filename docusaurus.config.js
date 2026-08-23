@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jlxnb', // Usually your GitHub org/user name.
+  organizationName: 'nullpepper', // Usually your GitHub org/user name.
   projectName: 'PepperServer-Document', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/jlxnb/PepperServer-Document/blob/main'
+            'https://github.com/nullpepper/PepperServer-Document/blob/main'
         },
         blog: false,
         theme: {
@@ -78,7 +78,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/jlxnb/PepperServer-Document',
+            href: 'https://github.com/nullpepper/PepperServer-Document',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/jlxnb/PepperServer-Document',
+                href: 'https://github.com/nullpepper/PepperServer-Document',
               },
             ],
           },
