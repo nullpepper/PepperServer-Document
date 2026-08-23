@@ -58,4 +58,4 @@
 | `/gclaim perms <领地>` | 查看职位权限 |
 | `/gclaim perm <领地> <职位> <旗标> <值>` | 给某职位设置旗标（如 `build ALLOW`） |
 
-常用旗标与取值见[领地页面](Claims.md#旗标-细粒度保护)。
+常用旗标与取值见[个人领地](PersonalClaims.md#旗标-细粒度保护)。

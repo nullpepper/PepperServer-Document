@@ -66,7 +66,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '联盟', link: '/towns/' },
-          { text: '领地', link: '/towns/Claims' },
+          { text: '个人领地', link: '/towns/PersonalClaims' },
+          { text: '联盟领地', link: '/towns/GuildClaims' },
           { text: '职位与权限', link: '/towns/Roles' },
           { text: '命令速查', link: '/towns/Commands' },
           { text: '繁荣度与活跃度', link: '/towns/Advancements' },
