@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as d,a0 as o}from"./chunks/framework.DQOulFGV.js";const b=JSON.parse('{"title":"传送系统","description":"","frontmatter":{},"headers":[],"relativePath":"teleport.md","filePath":"teleport.md"}'),r={name:"teleport.md"};function l(h,t,i,c,n,s){return a(),d("div",null,[...t[0]||(t[0]=[o("",27)])])}const u=e(r,[["render",l]]);export{b as __pageData,u as default};

@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as d,a0 as n}from"./chunks/framework.DQOulFGV.js";const b=JSON.parse('{"title":"QQ 绑定","description":"","frontmatter":{},"headers":[],"relativePath":"qqbind.md","filePath":"qqbind.md"}'),o={name:"qqbind.md"};function r(i,t,s,l,p,c){return e(),d("div",null,[...t[0]||(t[0]=[n("",14)])])}const q=a(o,[["render",r]]);export{b as __pageData,q as default};

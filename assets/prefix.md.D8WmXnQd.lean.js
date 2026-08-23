@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r,a0 as i}from"./chunks/framework.DQOulFGV.js";const _=JSON.parse('{"title":"前缀与称号","description":"","frontmatter":{},"headers":[],"relativePath":"prefix.md","filePath":"prefix.md"}'),l={name:"prefix.md"};function o(d,a,n,h,s,c){return e(),r("div",null,[...a[0]||(a[0]=[i("",11)])])}const p=t(l,[["render",o]]);export{_ as __pageData,p as default};

@@ -1,0 +1,1 @@
+import{_ as d,o as r,c as a,a0 as e}from"./chunks/framework.DQOulFGV.js";const b=JSON.parse('{"title":"世界","description":"","frontmatter":{},"headers":[],"relativePath":"worlds.md","filePath":"worlds.md"}'),o={name:"worlds.md"};function l(n,t,s,i,h,c){return r(),a("div",null,[...t[0]||(t[0]=[e("",10)])])}const g=d(o,[["render",l]]);export{b as __pageData,g as default};
