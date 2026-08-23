@@ -50,7 +50,7 @@ sidebar_position: 12
 |---|---|
 | `/union reload` | 热重载联盟配置 |
 | `/union compensations <list\|retry\|finish>` | 联盟资金补偿人工核查 |
-| `/pclaim admin` | 领地管理（详情见 PepperClaim 服主文档） |
+| `/claimadmin` | 领地管理入口（`reload`/`info`/`delete`/`restore` 等子命令，详见 PepperClaim 服主文档） |
 
 ## 性能与维护
 
