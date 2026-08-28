@@ -50,6 +50,8 @@
 | `/pclaim gui` | 打开领地图形界面 |
 | `/pclaim map` | 查看周边领地地图 |
 | `/gclaim create <名字>` | 创建联盟领地 |
+| `/gclaim prosperity` | 查看联盟活跃度 |
+| `/gclaim top` | 查看全服活跃榜 |
 
 ## 生活
 
