@@ -21,3 +21,6 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 /.idea
+
+# Java prototype build output (javac -d . Engine.java EngineTest.java)
+*.class
