@@ -21,7 +21,7 @@ export default defineConfig({
       {
         text: '领地与联盟',
         items: [
-          { text: '家园领地', link: '/claims' },
+          { text: '个人领地', link: '/claims' },
           { text: '联盟', link: '/union' },
         ],
       },
@@ -50,7 +50,7 @@ export default defineConfig({
           { text: '连接与快速开始', link: '/connection' },
           { text: '基础设定与规则', link: '/rules' },
           { text: '聊天与社交', link: '/chat' },
-          { text: '传送与家园', link: '/teleport' },
+          { text: '传送与个人传送点', link: '/teleport' },
           { text: '经济系统', link: '/economy' },
         ],
       },
@@ -58,7 +58,7 @@ export default defineConfig({
         text: '领地与联盟',
         collapsed: false,
         items: [
-          { text: '家园领地', link: '/claims' },
+          { text: '个人领地', link: '/claims' },
           { text: '联盟', link: '/union' },
         ],
       },

@@ -5,7 +5,7 @@
 回城：/spawn          回退：/back          弹射：/ej
 圈地：/pclaim create <名>（金锄选区）
 领地传送：/pclaim home
-设家：/sethome home   回家：/home home
+设传送点：/sethome home  回传送点：/home home
 银行：/bank           余额：/balance       转账：/pay 玩家 金额
 联盟：/union          联盟领地：/gclaim
 称号：/title          动作：/sit /lay /crawl
