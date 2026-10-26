@@ -51,11 +51,17 @@ export default defineConfig({
     sidebar: [
       { text: '开始', link: '/intro' },
       {
-        text: '基础',
+        text: '快速开始',
         collapsed: false,
         items: [
           { text: '连接与快速开始', link: '/connection' },
           { text: '基础设定与规则', link: '/rules' },
+        ],
+      },
+      {
+        text: '基础',
+        collapsed: false,
+        items: [
           { text: '聊天与社交', link: '/chat' },
           { text: '传送与个人传送点', link: '/teleport' },
           { text: '经济系统', link: '/economy' },
