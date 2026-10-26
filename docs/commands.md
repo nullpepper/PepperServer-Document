@@ -52,9 +52,9 @@
 | `/pclaim buy <格数>` | 购买额度 |
 | `/pclaim expand <格数> [方向]` | 扩边 |
 | `/pclaim resize <领地>` | 重划 |
-| `/pclaim set flag ...` | 领地级旗标 |
-| `/pclaim group ...` | 成员组 |
-| `/pclaim ban/unban ...` | 封禁/解封 |
+| `/pclaim set flag <领地> <旗标> <值>` | 领地级旗标 |
+| `/pclaim group <领地> ...` | 成员组 |
+| `/pclaim ban <玩家> [领地]` / `/pclaim unban <玩家> [领地]` | 封禁/解封 |
 | `/pclaim settp` | 设传送点 |
 | `/pclaim home` | 回自己的领地 |
 | `/pclaim home transfer <玩家>` | 转让 |
@@ -80,10 +80,10 @@
 | `/union list` | 联盟列表与编号 |
 | `/union chat <消息>` | 联盟频道 |
 | `/union account` | 金库 |
-| `/union account deposit/withdraw <金额>` | 存/取 |
+| `/union account deposit <金额>` / `/union account withdraw <金额>` | 存/取 |
 | `/union rank` | 职位管理 |
 | `/union kick <玩家>` | 踢人 |
-| `/union ban/unban <玩家>` | 封禁/解封 |
+| `/union ban <玩家> [原因]` / `/union unban <玩家>` | 封禁/解封 |
 | `/union transfer <玩家>` | 转让盟主 |
 | `/union leave` | 退出 |
 | `/union disband` | 解散 |
@@ -103,10 +103,10 @@
 | `/gclaim expand <格数> [方向]` | 扩边 |
 | `/gclaim resize <领地>` | 重划 |
 | `/gclaim settp` / `tp` | 设点/传送 |
-| `/gclaim flag ...` | 旗标 |
+| `/gclaim flag <领地> <旗标> <值>` | 旗标 |
 | `/gclaim perms <领地>` | 查看职位权限 |
 | `/gclaim perm <领地> <职位> <旗标> <值>` | 设置职位权限 |
-| `/gclaim ban/unban ...` | 封禁/解封 |
+| `/gclaim ban <玩家> [领地]` / `/gclaim unban <玩家> [领地]` | 封禁/解封 |
 | `/gclaim sub create <名字>` | 子领地 |
 | `/gclaim map` / `borders` | 地图/边界 |
 | `/gclaim delete <领地>` | 删除 |

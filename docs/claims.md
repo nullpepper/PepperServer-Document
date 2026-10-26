@@ -29,7 +29,7 @@
 3. 输入：
 
 ```text
-/pclaim create <领地名>
+/pclaim create <名字>
 ```
 
 选区必须满足最小/最大边长和长宽比；领地不能与已有领地重叠，也不能建在主城全境，或整个落在任一世界的出生点 100 格内。创建后有 30 秒冷却。
@@ -40,7 +40,7 @@
 /pclaim quota              查看已用/剩余额度
 /pclaim buy <格数>         用余额购买额度（当前实际 5 钻石/格，见 5.4）
 /pclaim expand <格数> [north|south|east|west|out]
-/pclaim resize <领地名>    用金锄重新选区后应用
+/pclaim resize <名字>    用金锄重新选区后应用
 ```
 
 - 初始 1,024 格，约等于 32×32。

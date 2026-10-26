@@ -19,7 +19,7 @@
 ## 7.2 创建与加入
 
 ```text
-/union create <名称>            创建联盟（64 钻石，5 秒内确认）
+/union create <名字>            创建联盟（64 钻石，5 秒内确认）
 /union confirm                  确认创建/解散等操作
 /union invite <玩家>            邀请玩家
 /union accept <联盟编号>        接受邀请（编号见邀请提示/联盟列表）
@@ -93,7 +93,7 @@
 
 ```text
 /gclaim                        打开联盟领地界面
-/gclaim create <名称>          用金锄选区后创建
+/gclaim create <名字>          用金锄选区后创建
 /gclaim info [领地]            查看信息
 /gclaim list                   列出联盟领地
 /gclaim quota                  查看额度
@@ -102,12 +102,13 @@
 /gclaim resize <领地>          重新选区后应用
 /gclaim tp                     传送到联盟领地
 /gclaim settp                  设置联盟领地传送点
-/gclaim flag ...               设置旗标
+/gclaim flag <领地> <旗标> <值> 设置旗标
 /gclaim perms <领地>          查看领地权限
 /gclaim perm <领地> <职位> <旗标> <值>
                               设置职位权限
-/gclaim ban/unban ...          封禁/解封
-/gclaim sub create <名称>      创建子领地
+/gclaim ban <玩家> [领地]      封禁
+/gclaim unban <玩家> [领地]    解封
+/gclaim sub create <名字>      创建子领地
 /gclaim map / borders          地图、边界显示
 /gclaim delete <领地>          删除
 ```
@@ -115,7 +116,7 @@
 说明：
 
 - 联盟领地创建/管理需要盟主或对应职位权限；普通成员主要是在领地内建造、使用容器和传送。
-- 联盟领地没有自动创建命令；必须先用金锄选区，再 `/gclaim create <名称>`。
+- 联盟领地没有自动创建命令；必须先用金锄选区，再 `/gclaim create <名字>`。
 - 单边 128 是硬上限，但面积上限 4,096 会先触发；实际形状通常不超过 64×64 的正方形，只有狭长形状才可能用到 128 边。
 - 购买额度当前实际 100 钻石/格（标价 1 钻石/格，见 5.4 价格提示），通常先用免费额度。
 - 子领地只有一层，不能嵌套；每块主领地上限 10 块。
@@ -130,7 +131,7 @@
 /union transfer <玩家>        转让盟主
 /union leave                  退出联盟
 /union disband                解散联盟
-/union rename <新名称>        改名
+/union rename <新名>        改名
 /union rank                   职位管理
 ```
 
