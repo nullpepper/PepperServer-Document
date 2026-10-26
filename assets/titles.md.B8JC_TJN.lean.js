@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as s,a2 as n}from"./chunks/framework.mRCPFc5l.js";const _=JSON.parse('{"title":"11. 称号系统","description":"","frontmatter":{},"headers":[],"relativePath":"titles.md","filePath":"titles.md"}'),l={name:"titles.md"};function i(d,t,o,p,r,c){return e(),s("div",null,[...t[0]||(t[0]=[n("",8)])])}const u=a(l,[["render",i]]);export{_ as __pageData,u as default};
