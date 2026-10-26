@@ -1,0 +1,1 @@
+import{_ as e,o as d,c as o,a2 as a}from"./chunks/framework.mRCPFc5l.js";const g=JSON.parse('{"title":"3. 聊天与社交","description":"","frontmatter":{},"headers":[],"relativePath":"chat.md","filePath":"chat.md"}'),r={name:"chat.md"};function l(c,t,i,n,h,s){return d(),o("div",null,[...t[0]||(t[0]=[a("",12)])])}const p=e(r,[["render",l]]);export{g as __pageData,p as default};

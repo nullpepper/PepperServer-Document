@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as o,a2 as r}from"./chunks/framework.mRCPFc5l.js";const m=JSON.parse('{"title":"10. 主城弹射","description":"","frontmatter":{},"headers":[],"relativePath":"eject.md","filePath":"eject.md"}'),l={name:"eject.md"};function i(n,e,s,c,d,_){return t(),o("div",null,[...e[0]||(e[0]=[r("",7)])])}const u=a(l,[["render",i]]);export{m as __pageData,u as default};
