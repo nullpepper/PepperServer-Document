@@ -1,1 +1,0 @@
-import{_ as e,o as d,c as o,a2 as a}from"./chunks/framework.mRCPFc5l.js";const b=JSON.parse('{"title":"5. 经济系统","description":"","frontmatter":{},"headers":[],"relativePath":"economy.md","filePath":"economy.md"}'),r={name:"economy.md"};function c(n,t,l,i,h,s){return d(),o("div",null,[...t[0]||(t[0]=[a("",16)])])}const _=e(r,[["render",c]]);export{b as __pageData,_ as default};

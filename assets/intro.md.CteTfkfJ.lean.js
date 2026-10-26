@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as t,a2 as l}from"./chunks/framework.mRCPFc5l.js";const f=JSON.parse('{"title":"PepperCraft 玩家文档","description":"","frontmatter":{},"headers":[],"relativePath":"intro.md","filePath":"intro.md"}'),i={name:"intro.md"};function p(o,e,h,n,c,_){return r(),t("div",null,[...e[0]||(e[0]=[l("",7)])])}const s=a(i,[["render",p]]);export{f as __pageData,s as default};
