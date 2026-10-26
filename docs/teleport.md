@@ -42,8 +42,8 @@
 | --- | --- |
 | `/tpa <玩家>` | 请求传送到对方 |
 | `/tpahere <玩家>` | 请求对方传送到你 |
-| `/tpaccept / /tpyes` | 接受 |
-| `/tpdeny / /tpno` | 拒绝 |
+| `/tpaccept` / `/tpyes` | 接受 |
+| `/tpdeny` / `/tpno` | 拒绝 |
 | `/tpignore` | 不再接收某人的请求 |
 
 传送请求有时效，过期后需要重新发送。

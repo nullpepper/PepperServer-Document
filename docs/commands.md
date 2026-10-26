@@ -10,8 +10,8 @@
 | `/warps` | 公共传送点列表 |
 | `/tpa <玩家>` | 请求传送到对方 |
 | `/tpahere <玩家>` | 请求对方传送到你 |
-| `/tpaccept / /tpyes` | 接受传送请求 |
-| `/tpdeny / /tpno` | 拒绝传送请求 |
+| `/tpaccept` / `/tpyes` | 接受传送请求 |
+| `/tpdeny` / `/tpno` | 拒绝传送请求 |
 | `/tpignore` | 忽略传送请求 |
 
 ## 14.2 传送点
@@ -81,7 +81,7 @@
 | `/union confirm` | 二次确认 |
 | `/union invite <玩家>` | 邀请 |
 | `/union accept <联盟编号>` | 接受邀请 |
-| `/union join / /union apply <联盟编号> [留言]` | 申请加入 |
+| `/union join <联盟编号> [留言]` / `/union apply <联盟编号> [留言]` | 申请加入 |
 | `/union audit` | 申请审核界面 |
 | `/union info [联盟编号]` | 联盟信息 |
 | `/union list` | 联盟列表与编号 |

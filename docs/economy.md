@@ -19,8 +19,8 @@
 | 命令 | 作用 |
 | --- | --- |
 | `/bank` | 打开银行界面 |
-| `/bank add / /bank save <数量>` | 把背包里的钻石存入余额 |
-| `/bank takeout / /bank get / /bank take <数量>` | 从余额取出钻石到背包 |
+| `/bank add <数量>` / `/bank save <数量>` | 把背包里的钻石存入余额 |
+| `/bank takeout <数量>` / `/bank get <数量>` / `/bank take <数量>` | 从余额取出钻石到背包 |
 
 银行只处理钻石，其他物品不能存入。存取是 1:1，没有手续费。
 

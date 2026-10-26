@@ -12,10 +12,11 @@
 ## 11.2 命令
 
 ```text
-/title / /prefix       打开称号界面
-/title list            列出可用称号
-/title select <称号>   佩戴称号
-/title info            查看当前称号
+/title                打开称号界面
+/prefix               打开称号界面
+/title list           列出可用称号
+/title select <称号>  佩戴称号
+/title info           查看当前称号
 ```
 
 称号会显示在聊天栏名字前，也会影响部分界面显示。

@@ -23,7 +23,8 @@
 /union confirm                  确认创建/解散等操作
 /union invite <玩家>            邀请玩家
 /union accept <联盟编号>        接受邀请（编号见邀请提示/联盟列表）
-/union join / /union apply <联盟编号> [留言]   主动申请加入
+/union join <联盟编号> [留言]         主动申请加入
+/union apply <联盟编号> [留言]        主动申请加入
 /union audit                    打开入盟申请审核界面
 /union info [联盟编号]          查看联盟信息
 /union list                     查看联盟列表与编号
