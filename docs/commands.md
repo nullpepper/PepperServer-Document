@@ -81,7 +81,7 @@
 | `/union confirm` | 二次确认 |
 | `/union invite <玩家>` | 邀请 |
 | `/union accept <联盟编号>` | 接受邀请 |
-| `/union join <联盟编号> [留言]` | 申请加入（`apply` 为别名） |
+| `/union join / /union apply <联盟编号> [留言]` | 申请加入 |
 | `/union audit` | 申请审核界面 |
 | `/union info [联盟编号]` | 联盟信息 |
 | `/union list` | 联盟列表与编号 |
