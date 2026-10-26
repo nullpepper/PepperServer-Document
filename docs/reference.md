@@ -3,7 +3,7 @@
 ```text
 连接：pepper.ltd:25565（Java） / pepper.ltd:19132（基岩，UDP）
 回城：/spawn          回退：/back          弹射：/ej
-圈地：/pclaim create <名>（金锄选区）
+圈地：/pclaim（立即安家） 或 /pclaim create <名>（金锄选区）
 领地传送：/pclaim home
 设家：/sethome home   回家：/home home
 银行：/bank           余额：/balance       转账：/pay 玩家 金额
