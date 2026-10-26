@@ -77,7 +77,7 @@ export default defineConfig({
           { text: '矿车工作站', link: '/minecart' },
           { text: '主城弹射', link: '/eject' },
           { text: '称号系统', link: '/titles' },
-          { text: '休闲动作与外观', link: '/actions' },
+          { text: '休闲动作', link: '/actions' },
         ],
       },
       {
