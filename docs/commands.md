@@ -10,8 +10,8 @@
 | `/warps` | 公共传送点列表 |
 | `/tpa <玩家>` | 请求传送到对方 |
 | `/tpahere <玩家>` | 请求对方传送到你 |
-| `/tpaccept` / `/tpyes` | 接受传送请求 |
-| `/tpdeny` / `/tpno` | 拒绝传送请求 |
+| `/tpaccept / /tpyes` | 接受传送请求 |
+| `/tpdeny / /tpno` | 拒绝传送请求 |
 | `/tpignore` | 忽略传送请求 |
 
 ## 14.2 传送点

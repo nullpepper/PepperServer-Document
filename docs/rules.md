@@ -40,7 +40,7 @@
 | `/warps` | 查看可用传送点 |
 | `/tpa <玩家>` | 请求传送到对方 |
 | `/tpahere <玩家>` | 请求对方传送到你 |
-| `/tpaccept` / `/tpyes` | 接受传送请求 |
-| `/tpdeny` / `/tpno` | 拒绝传送请求 |
+| `/tpaccept / /tpyes` | 接受传送请求 |
+| `/tpdeny / /tpno` | 拒绝传送请求 |
 | `/tpignore` | 忽略他人的传送请求 |
 | `/help` | 查看服务器命令帮助 |
