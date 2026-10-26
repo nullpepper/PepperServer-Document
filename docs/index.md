@@ -4,20 +4,20 @@ layout: home
 hero:
   name: PepperCraft
   text: 服务器文档
-  tagline: 从进服到领地、联盟与经济的完整指南
+  tagline: 简单好玩，详细易懂，社区和谐
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 点击查看文档
       link: /intro
     - theme: alt
-      text: 命令速查
+      text: 常用指令速查
       link: /commands
 
 features:
-  - title: 按功能分章
-    details: 连接、聊天、传送、经济、领地、联盟、玩法与常见问题，一处查清。
-  - title: 与服务器同步
-    details: 依据 2026-10-26 服务器实际设置整理。
-  - title: 先查限制与 FAQ
-    details: 不可用功能、价格差异和命令细节均按服务器实况标注。
+  - title: 简单好玩
+    details: 进服就能玩——圈地、传送、联盟、连锁采集，常用功能都配有图形界面。
+  - title: 详细易懂
+    details: 按功能分章，命令、数值与限制逐条写明，并提示容易踩的坑。
+  - title: 社区和谐
+    details: 遇到问题在群里问，管理组会跟进；当前不可用的功能也如实标注。
 ---

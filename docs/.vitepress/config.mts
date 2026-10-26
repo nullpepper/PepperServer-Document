@@ -6,6 +6,12 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/',
 
+  // 内部设计稿不发布到玩家文档站
+  srcExclude: [
+    'placeholder-engine-design.md',
+    'placeholder-engine-phase2-proposal.md',
+  ],
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { property: 'og:image', content: '/docusaurus-social-card.jpg' }],
