@@ -43,7 +43,6 @@
 | 命令 | 作用 |
 | --- | --- |
 | `/pclaim` | 领地界面 |
-| `/pclaim auto` | 自动 16×16 |
 | `/pclaim create <名字>` | 金锄选区创建 |
 | `/pclaim info [领地]` | 领地信息 |
 | `/pclaim list` | 领地列表 |
