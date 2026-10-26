@@ -47,8 +47,8 @@
 
 ## 文档导航
 
-- **快速开始**：[连接与快速开始](connection.md) · [基础设定与游戏规则](rules.md)
-- **基础**：[聊天与社交](chat.md) · [传送与个人传送点](teleport.md) · [经济系统](economy.md)
+- **快速开始**：[连接服务器](connection.md) · [基础设定与游戏规则](rules.md)
+- **常用系统**：[聊天与社交](chat.md) · [传送与个人传送点](teleport.md) · [经济系统](economy.md)
 - **领地与联盟**：[个人领地](claims.md) · [联盟](union.md)
 - **玩法**：[连锁采集](harvest.md) · [矿车工作站](minecart.md) · [主城弹射](eject.md) · [称号系统](titles.md) · [休闲动作](actions.md)
 - **其他**：[基岩版与跨版本](bedrock.md) · [命令速查表](commands.md) · [常见问题](faq.md) · [本服没有的功能](unavailable.md) · [快速参考卡](reference.md)

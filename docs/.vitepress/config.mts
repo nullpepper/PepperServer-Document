@@ -49,17 +49,17 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { text: '开始', link: '/intro' },
+      { text: '文档首页', link: '/intro' },
       {
         text: '快速开始',
         collapsed: false,
         items: [
-          { text: '连接与快速开始', link: '/connection' },
+          { text: '连接服务器', link: '/connection' },
           { text: '基础设定与规则', link: '/rules' },
         ],
       },
       {
-        text: '基础',
+        text: '常用系统',
         collapsed: false,
         items: [
           { text: '聊天与社交', link: '/chat' },
