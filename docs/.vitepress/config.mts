@@ -55,7 +55,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '连接服务器', link: '/connection' },
-          { text: '基础设定与规则', link: '/rules' },
+          { text: '基础设定与游戏规则', link: '/rules' },
         ],
       },
       {
