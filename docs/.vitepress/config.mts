@@ -6,7 +6,8 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/',
 
-  // 内部设计稿不发布到玩家文档站
+  // 这两份是内部设计稿（含服务端实现、数据库与插件内部细节），
+  // 不属于玩家文档，故从站点构建中排除；文件仍保留在仓库里备查。
   srcExclude: [
     'placeholder-engine-design.md',
     'placeholder-engine-phase2-proposal.md',
