@@ -86,7 +86,8 @@ export default defineConfig({
         items: [
           { text: '基岩版与跨版本', link: '/bedrock' },
           { text: '命令速查表', link: '/commands' },
-          { text: '已知限制与常见问题', link: '/faq' },
+          { text: '常见问题', link: '/faq' },
+          { text: '本服没有的功能', link: '/unavailable' },
           { text: '快速参考卡', link: '/reference' },
         ],
       },
