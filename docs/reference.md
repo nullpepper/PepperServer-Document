@@ -1,7 +1,7 @@
 # 附：快速参考卡
 
 ```text
-连接：pepper.ltd:25565（Java） / pepper.ltd:19132（基岩，UDP）
+连接：pepper.ltd:25565（Java） / pepper.ltd:19132（基岩）
 回城：/spawn          回退：/back          弹射：/ej
 圈地：/pclaim create <名>（金锄选区）
 领地传送：/pclaim home
