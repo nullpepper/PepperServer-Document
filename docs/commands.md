@@ -10,7 +10,8 @@
 | `/warps` | 公共传送点列表 |
 | `/tpa <玩家>` | 请求传送到对方 |
 | `/tpahere <玩家>` | 请求对方传送到你 |
-| `/tpaccept` / `/tpdeny` | 接受/拒绝 |
+| `/tpaccept` / `/tpyes` | 接受传送请求 |
+| `/tpdeny` / `/tpno` | 拒绝传送请求 |
 | `/tpignore` | 忽略传送请求 |
 | `/rtp` | **不可用** |
 
@@ -53,14 +54,21 @@
 | `/pclaim expand <格数> [方向]` | 扩边 |
 | `/pclaim resize <领地>` | 重划 |
 | `/pclaim set flag <领地> <旗标> <值>` | 领地级旗标 |
-| `/pclaim group <领地> ...` | 成员组 |
-| `/pclaim ban <玩家> [领地]` / `/pclaim unban <玩家> [领地]` | 封禁/解封 |
-| `/pclaim settp` | 设传送点 |
+| `/pclaim group <领地> list` | 查看成员组 |
+| `/pclaim group <领地> create <组名>` | 新建成员组 |
+| `/pclaim group <领地> assign <玩家> <组名> [时长]` | 把玩家加入组 |
+| `/pclaim group <领地> unassign <玩家>` | 移出成员组 |
+| `/pclaim group <领地> setflag <组> <旗标> <值>` | 设置组权限 |
+| `/pclaim group <领地> delete <组名>` | 删除成员组 |
+| `/pclaim ban <玩家> [领地]` | 禁止某人进入/使用领地 |
+| `/pclaim unban <玩家> [领地]` | 解除封禁 |
+| `/pclaim settp` | 设置领地传送点 |
 | `/pclaim home` | 回自己的领地 |
 | `/pclaim home transfer <玩家>` | 转让 |
 | `/pclaim home accept` | 接受转让 |
 | `/pclaim delete <领地>` | 删除 |
-| `/pclaim map` / `borders` | 地图/边界 |
+| `/pclaim map` | 打开领地地图 |
+| `/pclaim borders` | 显示领地边界 |
 | `/pclaim trapped` | 脱困 |
 | `/pclaim gui` | 图形界面 |
 | `/pclaim help` | 游戏内帮助 |
@@ -80,10 +88,12 @@
 | `/union list` | 联盟列表与编号 |
 | `/union chat <消息>` | 联盟频道 |
 | `/union account` | 金库 |
-| `/union account deposit <金额>` / `/union account withdraw <金额>` | 存/取 |
+| `/union account deposit <金额>` | 从个人余额存入联盟金库 |
+| `/union account withdraw <金额>` | 从联盟金库取到个人余额 |
 | `/union rank` | 职位管理 |
 | `/union kick <玩家>` | 踢人 |
-| `/union ban <玩家> [原因]` / `/union unban <玩家>` | 封禁/解封 |
+| `/union ban <玩家> [原因]` | 封禁成员 |
+| `/union unban <玩家>` | 解除封禁 |
 | `/union transfer <玩家>` | 转让盟主 |
 | `/union leave` | 退出 |
 | `/union disband` | 解散 |
@@ -102,13 +112,16 @@
 | `/gclaim buy <格数>` | 购买额度（当前实际 100/格） |
 | `/gclaim expand <格数> [方向]` | 扩边 |
 | `/gclaim resize <领地>` | 重划 |
-| `/gclaim settp` / `tp` | 设点/传送 |
+| `/gclaim settp` | 设置联盟领地传送点 |
+| `/gclaim tp` | 传送到联盟领地 |
 | `/gclaim flag <领地> <旗标> <值>` | 旗标 |
 | `/gclaim perms <领地>` | 查看职位权限 |
 | `/gclaim perm <领地> <职位> <旗标> <值>` | 设置职位权限 |
-| `/gclaim ban <玩家> [领地]` / `/gclaim unban <玩家> [领地]` | 封禁/解封 |
+| `/gclaim ban <玩家> [领地]` | 禁止某人进入/使用联盟领地 |
+| `/gclaim unban <玩家> [领地]` | 解除封禁 |
 | `/gclaim sub create <名字>` | 子领地 |
-| `/gclaim map` / `borders` | 地图/边界 |
+| `/gclaim map` | 打开联盟领地地图 |
+| `/gclaim borders` | 显示联盟领地边界 |
 | `/gclaim delete <领地>` | 删除 |
 
 ## 14.7 玩法与社交
@@ -120,7 +133,11 @@
 | `/title` | 称号界面 |
 | `/title list` | 称号列表 |
 | `/title select <称号>` | 佩戴称号 |
-| `/sit` / `/lay` / `/legsup` / `/spin` / `/crawl` | 动作 |
+| `/sit` | 坐下 |
+| `/lay` | 躺下 |
+| `/legsup` | 抬腿坐 |
+| `/spin` | 旋转 |
+| `/crawl` | 匍匐前进 |
 | `/msg <玩家> <消息>` | 私聊 |
 | `/reply <消息>` | 回复私聊 |
 | `/ignore <玩家>` | 屏蔽 |

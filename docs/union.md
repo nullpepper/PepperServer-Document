@@ -109,7 +109,8 @@
 /gclaim ban <玩家> [领地]      封禁
 /gclaim unban <玩家> [领地]    解封
 /gclaim sub create <名字>      创建子领地
-/gclaim map / borders          地图、边界显示
+/gclaim map                    打开联盟领地地图
+/gclaim borders                显示联盟领地边界
 /gclaim delete <领地>          删除
 ```
 
