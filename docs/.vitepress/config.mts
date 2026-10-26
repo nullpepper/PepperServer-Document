@@ -17,8 +17,14 @@ export default defineConfig({
 
     nav: [
       { text: '开始', link: '/intro' },
-      { text: '指令速查', link: '/quickref' },
-      { text: '联盟与领地', link: '/towns/' },
+      { text: '命令速查', link: '/commands' },
+      {
+        text: '领地与联盟',
+        items: [
+          { text: '家园领地', link: '/claims' },
+          { text: '联盟', link: '/union' },
+        ],
+      },
       {
         text: '交流',
         items: [
@@ -37,40 +43,44 @@ export default defineConfig({
 
     sidebar: [
       { text: '开始', link: '/intro' },
-      { text: '常用指令速查', link: '/quickref' },
       {
-        text: '基础功能',
+        text: '基础',
         collapsed: false,
         items: [
-          { text: '传送系统', link: '/teleport' },
-          { text: '经济系统', link: '/conomy' },
-          { text: '聊天系统', link: '/chat' },
-          { text: '前缀与称号', link: '/prefix' },
-          { text: '休闲动作', link: '/actions' },
-          { text: '图片展示', link: '/image' },
-          { text: '矿车玩法', link: '/minecart' },
+          { text: '连接与快速开始', link: '/connection' },
+          { text: '基础设定与规则', link: '/rules' },
+          { text: '聊天与社交', link: '/chat' },
+          { text: '传送与家园', link: '/teleport' },
+          { text: '经济系统', link: '/economy' },
         ],
       },
       {
-        text: '玩法进阶',
+        text: '领地与联盟',
         collapsed: false,
         items: [
-          { text: '世界', link: '/worlds' },
-          { text: '基岩版玩家', link: '/bedrock' },
-          { text: 'QQ 绑定', link: '/qqbind' },
-          { text: '特殊功能', link: '/special' },
+          { text: '家园领地', link: '/claims' },
+          { text: '联盟', link: '/union' },
         ],
       },
       {
-        text: '联盟与领地',
+        text: '玩法',
         collapsed: false,
         items: [
-          { text: '联盟', link: '/towns/' },
-          { text: '个人领地', link: '/towns/PersonalClaims' },
-          { text: '联盟领地', link: '/towns/GuildClaims' },
-          { text: '职位与权限', link: '/towns/Roles' },
-          { text: '命令速查', link: '/towns/Commands' },
-          { text: '繁荣度与活跃度', link: '/towns/Advancements' },
+          { text: '连锁采集', link: '/harvest' },
+          { text: '矿车工作站', link: '/minecart' },
+          { text: '主城弹射', link: '/eject' },
+          { text: '称号系统', link: '/titles' },
+          { text: '休闲动作与外观', link: '/actions' },
+        ],
+      },
+      {
+        text: '其他',
+        collapsed: false,
+        items: [
+          { text: '基岩版与跨版本', link: '/bedrock' },
+          { text: '命令速查表', link: '/commands' },
+          { text: '已知限制与常见问题', link: '/faq' },
+          { text: '快速参考卡', link: '/reference' },
         ],
       },
     ],

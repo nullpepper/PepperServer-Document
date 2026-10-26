@@ -1,54 +1,29 @@
+# PepperCraft 玩家文档
 
-# Pepper❤️Craft 服务器官方文档
+> 适用版本：PepperCraft 生产服（服务端 **26.3**，Purpur 系）
+> 资料截止：**2026-10-26**
+> 本文依据服务器当前配置、插件源码与权限库整理，不沿用旧文档。服务器后续更新时，以游戏内实际提示为准。
 
-> Written by: AtomicalPepper
+---
 
-👋 欢迎来到我们的服务器文档！
+## 目录
 
-本文档的**大部分内容**只适用于 PepperCraft 服务器，请各位在游玩其他服务器或原版生存时不要过度依赖～
+1. [连接与快速开始](connection.md#_1-连接与快速开始)
+2. [基础设定与游戏规则](rules.md#_2-基础设定与游戏规则)
+3. [聊天与社交](chat.md#_3-聊天与社交)
+4. [传送与家园](teleport.md#_4-传送与家园)
+5. [经济系统](economy.md#_5-经济系统)
+6. [家园领地 PepperClaim](claims.md#_6-家园领地-pepperclaim)
+7. [联盟 PepperUnion](union.md#_7-联盟-pepperunion)
+8. [连锁采集 PepperHarvest](harvest.md#_8-连锁采集-pepperharvest)
+9. [矿车工作站 PepperMinecart](minecart.md#_9-矿车工作站-pepperminecart)
+10. [主城弹射 PepperEject](eject.md#_10-主城弹射-peppereject)
+11. [称号系统 PepperTitle](titles.md#_11-称号系统-peppertitle)
+12. [休闲动作与外观](actions.md#_12-休闲动作与外观)
+13. [基岩版与跨版本](bedrock.md#_13-基岩版与跨版本)
+14. [命令速查表](commands.md#_14-命令速查表)
+15. [已知限制与常见问题](faq.md#_15-已知限制与常见问题)
 
-## 服务器信息
+附：[快速参考卡](reference.md#附-快速参考卡)
 
-| 项目 | 内容 |
-|---|---|
-| 服务器地址 | **pepper.ltd** |
-| 服务器 QQ 群 | **754966689** |
-| 官网 | http://web.pepper.ltd |
-| 支持版本 | **1.21-26.2** |
-| 文档开源地址 | [点我点我](https://github.com/nullpepper/PepperServer-Document/) |
-
-## 参数约定
-
-理解本文档的内容时，你应该了解：
-
-- `<xxx>` 表示**必填参数**。
-- `[xxx]` 表示**可选参数**。
-
-例如：命令 `/tpa <玩家名>` 意味着你需要将 `<玩家名>` 替换为一个玩家的游戏名。
-
-假设你需要对名为 Pepper 的玩家执行命令：
-
-| 命令 | 正误 |
-|---|---|
-| **/tpa Pepper** | ✅ |
-| /tpa <Pepper\> | ❌ |
-| /tpa <玩家名\> | ❌ |
-
-## 快速上手
-
-刚进服务器？跟着这几步五分钟就能开玩：
-
-1. **绑定 QQ**：输入 `/qqbind bind <你的QQ号>`，再按提示在 QQ 群内发送验证码（详见 [QQ 绑定](qqbind.md)）。
-2. **认识主城**：出生在主城（安全区，禁止 PvP）。想出发去主世界冒险？输入 `/pej` 弹射出发；想回城？随时输入 `/spawn`。
-3. **设置你的家**：在喜欢的位置输入 `/sethome`，之后无论身处何方，输入 `/home` 就能回家（详见 [传送系统](teleport.md)）。
-4. **认识经济**：服务器货币是**钻石**，新玩家初始有 8 钻石。用 `/money` 查看余额，`/diamond` 打开钻石银行（详见 [经济系统](conomy.md)）。
-5. **开始冒险**：去主世界采集资源、建筑、生存；想找朋友就 `/msg <玩家> <内容>` 私聊，想传送到朋友身边就 `/tpa <玩家>`。
-
-遇到问题？在聊天框输入「回城」「领地」等关键词会收到自动帮助，也可以加入 QQ 群提问。
-
-## 文档导航
-
-- [常用指令速查](quickref.md) —— 一页看完最常用指令
-- **基础功能**：[传送系统](teleport.md) · [经济系统](conomy.md) · [聊天系统](chat.md) · [前缀与称号](prefix.md) · [休闲动作](actions.md) · [图片展示](image.md) · [矿车玩法](minecart.md)
-- **玩法进阶**：[世界](worlds.md) · [基岩版玩家](bedrock.md) · [QQ 绑定](qqbind.md) · [特殊功能](special.md)
-- **团队玩法**：[联盟与领地](towns/) 系列
+从左侧目录选择章节，或按顺序阅读。

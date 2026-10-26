@@ -10,7 +10,9 @@ const docsDir = join(root, 'docs')
 // Unicode 字母/数字连续块，用 '-' 连接（标点符号是块分隔符）
 function slugify(s) {
   const blocks = s.toLowerCase().match(/[\p{L}\p{N}]+/gu) || []
-  return blocks.join('-')
+  const slug = blocks.join('-')
+  // VitePress prefixes slugs that start with a digit with an underscore.
+  return /^\d/.test(slug) ? `_${slug}` : slug
 }
 
 function collectMd(dir) {

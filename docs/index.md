@@ -4,20 +4,20 @@ layout: home
 hero:
   name: PepperCraft
   text: 服务器文档
-  tagline: 简单好玩，详细易懂，社区和谐
+  tagline: 从进服到领地、联盟与经济的完整指南
   actions:
     - theme: brand
-      text: 点击查看文档
+      text: 开始阅读
       link: /intro
     - theme: alt
-      text: 常用指令速查
-      link: /quickref
+      text: 命令速查
+      link: /commands
 
 features:
-  - title: 简单好玩
-    details: 我说好玩就是好玩, 爱玩玩不玩滚～
-  - title: 详细易懂
-    details: 就这点jb指令有啥难的… 看完文档学不会怎么用说明你是个傻逼.
-  - title: 社区和谐
-    details: 小心被玩家骂死 :)
+  - title: 按功能分章
+    details: 连接、聊天、传送、经济、领地、联盟、玩法与常见问题，一处查清。
+  - title: 与服务器同步
+    details: 依据 2026-10-26 的服务器配置、插件源码与权限库整理。
+  - title: 先查限制与 FAQ
+    details: 不可用功能、价格差异和命令细节都有说明；以游戏内提示为准。
 ---
