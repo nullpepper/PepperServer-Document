@@ -1,1 +1,0 @@
-import{_ as d,o as e,c as r,a2 as o}from"./chunks/framework.mRCPFc5l.js";const _=JSON.parse('{"title":"2. 基础设定与游戏规则","description":"","frontmatter":{},"headers":[],"relativePath":"rules.md","filePath":"rules.md"}'),a={name:"rules.md"};function c(l,t,n,i,s,h){return e(),r("div",null,[...t[0]||(t[0]=[o("",9)])])}const b=d(a,[["render",c]]);export{_ as __pageData,b as default};
