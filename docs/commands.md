@@ -56,7 +56,7 @@
 | `/pclaim group ...` | 成员组 |
 | `/pclaim ban/unban ...` | 封禁/解封 |
 | `/pclaim settp` | 设传送点 |
-| `/pclaim home` | 回领地 |
+| `/pclaim home` | 回自己的领地 |
 | `/pclaim home transfer <玩家>` | 转让 |
 | `/pclaim home accept` | 接受转让 |
 | `/pclaim delete <领地>` | 删除 |
