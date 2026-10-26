@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as e,a2 as n}from"./chunks/framework.mRCPFc5l.js";const g=JSON.parse('{"title":"6. 个人领地","description":"","frontmatter":{},"headers":[],"relativePath":"claims.md","filePath":"claims.md"}'),d={name:"claims.md"};function l(p,t,i,o,c,r){return s(),e("div",null,[...t[0]||(t[0]=[n("",35)])])}const u=a(d,[["render",l]]);export{g as __pageData,u as default};

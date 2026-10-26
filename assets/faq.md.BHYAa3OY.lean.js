@@ -1,1 +1,0 @@
-import{_ as o,o as e,c as d,a2 as r}from"./chunks/framework.mRCPFc5l.js";const h=JSON.parse('{"title":"15. 已知限制与常见问题","description":"","frontmatter":{},"headers":[],"relativePath":"faq.md","filePath":"faq.md"}'),a={name:"faq.md"};function c(n,t,s,p,g,i){return e(),d("div",null,[...t[0]||(t[0]=[r("",22)])])}const _=o(a,[["render",c]]);export{h as __pageData,_ as default};
