@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as d,a2 as r}from"./chunks/framework.mRCPFc5l.js";const p=JSON.parse('{"title":"13. 基岩版与跨版本","description":"","frontmatter":{},"headers":[],"relativePath":"bedrock.md","filePath":"bedrock.md"}'),o={name:"bedrock.md"};function l(i,t,c,n,_,h){return e(),d("div",null,[...t[0]||(t[0]=[r("",8)])])}const b=a(o,[["render",l]]);export{p as __pageData,b as default};
