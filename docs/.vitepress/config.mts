@@ -73,6 +73,7 @@ export default defineConfig({
         items: [
           { text: '个人领地', link: '/claims' },
           { text: '联盟', link: '/union' },
+          { text: '联盟领地', link: '/union-claims' },
         ],
       },
       {
