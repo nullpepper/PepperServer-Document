@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as s,a2 as e}from"./chunks/framework.mRCPFc5l.js";const h=JSON.parse('{"title":"7. 联盟","description":"","frontmatter":{},"headers":[],"relativePath":"union.md","filePath":"union.md"}'),i={name:"union.md"};function l(o,n,p,d,c,r){return t(),s("div",null,[...n[0]||(n[0]=[e("",21)])])}const b=a(i,[["render",l]]);export{h as __pageData,b as default};

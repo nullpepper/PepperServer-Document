@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n,a2 as r}from"./chunks/framework.mRCPFc5l.js";const m=JSON.parse('{"title":"16. 常见问题","description":"","frontmatter":{},"headers":[],"relativePath":"faq.md","filePath":"faq.md"}'),c={name:"faq.md"};function a(p,o,d,s,g,i){return t(),n("div",null,[...o[0]||(o[0]=[r("",19)])])}const _=e(c,[["render",a]]);export{m as __pageData,_ as default};

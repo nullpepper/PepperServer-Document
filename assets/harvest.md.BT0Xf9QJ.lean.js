@@ -1,1 +1,0 @@
-import{_ as l,o as t,c as i,a2 as e}from"./chunks/framework.mRCPFc5l.js";const _=JSON.parse('{"title":"8. 连锁采集","description":"","frontmatter":{},"headers":[],"relativePath":"harvest.md","filePath":"harvest.md"}'),r={name:"harvest.md"};function s(o,a,n,h,d,c){return t(),i("div",null,[...a[0]||(a[0]=[e("",16)])])}const p=l(r,[["render",s]]);export{_ as __pageData,p as default};

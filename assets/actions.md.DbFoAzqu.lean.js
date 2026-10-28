@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as d,a2 as o}from"./chunks/framework.mRCPFc5l.js";const p=JSON.parse('{"title":"12. 休闲动作","description":"","frontmatter":{},"headers":[],"relativePath":"actions.md","filePath":"actions.md"}'),r={name:"actions.md"};function c(i,t,l,n,s,_){return a(),d("div",null,[...t[0]||(t[0]=[o("",4)])])}const u=e(r,[["render",c]]);export{p as __pageData,u as default};
